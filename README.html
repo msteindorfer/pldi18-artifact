@@ -1,0 +1,170 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>README</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+/*
+   This document has been created with Marked.app <http://markedapp.com>, Copyright 2011 Brett Terpstra
+   Please leave this notice in place, along with any additional credits below.
+   ---------------------------------------------------------------
+   Title: Swiss
+   Author: Brett Terpstra
+   Description: Clean, Swiss typography with no frills.
+*/
+body{-webkit-font-smoothing:antialiased;font:normal .8764em/1.5em Arial,Verdana,sans-serif;margin:0}html>body{font-size:13px}li{font-size:110%}li li{font-size:100%}li p{font-size:100%;margin:.5em 0}h1{color:#000;font-size:2.2857em;line-height:.6563em;margin:.6563em 0}h2{color:#111;font-size:1.7143em;line-height:.875em;margin:.875em 0}h3{color:#111;font-size:1.5em;line-height:1em;margin:1em 0}h4{color:#111;font-size:1.2857em;line-height:1.1667em;margin:1.1667em 0}h5{color:#111;font-size:1.15em;line-height:1.3em;margin:1.3em 0}h6{font-size:1em;line-height:1.5em;margin:1.5em 0}body,p,td,div{color:#111;font-family:"Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;word-wrap:break-word}h1,h2,h3,h4,h5,h6{line-height:1.5em}a{-webkit-transition:color .2s ease-in-out;color:#0d6ea1;text-decoration:none}a:hover{color:#3593d9}.footnote{color:#0d6ea1;font-size:.8em;vertical-align:super}#wrapper img{max-width:100%;height:auto}dd{margin-bottom:1em}li>p:first-child{margin:0}ul ul,ul ol{margin-bottom:.4em}caption,col,colgroup,table,tbody,td,tfoot,th,thead,tr{border-spacing:0}table{border:1px solid rgba(0,0,0,0.25);border-collapse:collapse;display:table;empty-cells:hide;margin:-1px 0 23px;padding:0;table-layout:fixed}caption{display:table-caption;font-weight:700}col{display:table-column}colgroup{display:table-column-group}tbody{display:table-row-group}tfoot{display:table-footer-group}thead{display:table-header-group}td,th{display:table-cell}tr{display:table-row}table th,table td{font-size:1.1em;line-height:23px;padding:0 1em}table thead{background:rgba(0,0,0,0.15);border:1px solid rgba(0,0,0,0.15);border-bottom:1px solid rgba(0,0,0,0.2)}table tbody{background:rgba(0,0,0,0.05)}table tfoot{background:rgba(0,0,0,0.15);border:1px solid rgba(0,0,0,0.15);border-top:1px solid rgba(0,0,0,0.2)}figure{display:inline-block;margin-bottom:1.2em;position:relative;margin:1em 0}figcaption{font-style:italic;text-align:center;background:rgba(0,0,0,.9);color:rgba(255,255,255,1);position:absolute;left:0;bottom:-24px;width:98%;padding:1%;-webkit-transition:all .2s ease-in-out}.poetry pre{display:block;font-family:Georgia,Garamond,serif!important;font-size:110%!important;font-style:italic;line-height:1.6em;margin-left:1em}.poetry pre code{font-family:Georgia,Garamond,serif!important}blockquote p{font-size:110%;font-style:italic;line-height:1.6em}sup,sub,a.footnote{font-size:1.4ex;height:0;line-height:1;position:relative;vertical-align:super}sub{vertical-align:sub;top:-1px}p,h5{font-size:1.1429em;line-height:1.3125em;margin:1.3125em 0}dt,th{font-weight:700}table tr:nth-child(odd),table th:nth-child(odd),table td:nth-child(odd){background:rgba(255,255,255,0.06)}table tr:nth-child(even),table td:nth-child(even){background:rgba(0,0,0,0.06)}@media print{body{overflow:auto}img,pre,blockquote,table,figure,p{page-break-inside:avoid}#wrapper{background:#fff;color:#303030;font-size:85%;padding:10px;position:relative;text-indent:0}}@media screen{.inverted #wrapper,.inverted{background:rgba(37,42,42,1)}.inverted hr{border-color:rgba(51,63,64,1)!important}.inverted p,.inverted td,.inverted li,.inverted h1,.inverted h2,.inverted h3,.inverted h4,.inverted h5,.inverted h6,.inverted th,.inverted .math,.inverted caption,.inverted dd,.inverted dt{color:#eee!important}.inverted table tr:nth-child(odd),.inverted table th:nth-child(odd),.inverted table td:nth-child(odd){background:0}.inverted pre code{color:#111}.inverted a{color:rgba(172,209,213,1)}#wrapper{padding:20px}::selection{background:rgba(157,193,200,.5)}h1::selection{background-color:rgba(45,156,208,.3)}h2::selection{background-color:rgba(90,182,224,.3)}h3::selection,h4::selection,h5::selection,h6::selection,li::selection,ol::selection{background-color:rgba(133,201,232,.3)}code::selection{background-color:rgba(0,0,0,.7);color:#eee}code span::selection{background-color:rgba(0,0,0,.7)!important;color:#eee!important}a::selection{background-color:rgba(255,230,102,.2)}.inverted a::selection{background-color:rgba(255,230,102,.6)}td::selection,th::selection,caption::selection{background-color:rgba(180,237,95,.5)}}
+</style>
+
+</head>
+<body class="normal">
+  <div id="wrapper">
+      <h1 id="gettingstartedguide">Getting Started Guide</h1>
+
+<p>The evaluation of our PLDI&#8217;18 paper entitled <em>To-many or To-one? All-in-one! &#8212; Efficient Purely Functional Multi-Maps with Type-Heterogeneous Hash-Tries</em> consists of microbenchmarks and a case study in program analysis, both benchmarks execute fully automated. </p>
+
+<h2 id="requirements">Requirements</h2>
+
+<p>We assume basic familiarity with UNIX terminals and command line tools. The artifact was tested under UNIX operating systems (i.e., Ubuntu Linux 16.04.3.LTS and Apple macOS). The artifact requires the following resources to run:</p>
+
+<ul>
+<li>Command line tools:
+
+<ul>
+<li>java (version 8),</li>
+<li>maven,</li>
+<li>make,</li>
+<li>ant,</li>
+<li>R and RScript</li>
+</ul></li>
+<li>Internet connection (for automatically downloading dependencies).</li>
+</ul>
+
+<p>The execution time benchmarks are configured to use heap sizes of 8GB, whereas the memory measurments use 16GB. Thus computers or virtual machiens with at least 8GB RAM are recommended.</p>
+
+<p>For ease of use, we created a virtual machine with tools, benchmarks, and data setup. As basis we used the <strong>Ubuntu Linux 16.04.3.LTS</strong> distribution, installed in a <a href="https://www.virtualbox.org"><strong>VirtualBox</strong></a> virtual machine (version 5.2.6) with the <strong>Oracle VM VirtualBox Extension Pack</strong> installed. Go to <a href="www.virtualbox.org">www.virtualbox.org</a> for downloading the software and installation instructions.</p>
+
+<p>The virtual machine has the following packages installed in order to satisfy our requirements:</p>
+
+<ul>
+<li><code>sudo apt install git</code></li>
+<li><code>sudo apt install default-jdk</code></li>
+<li><code>sudo apt install maven</code></li>
+<li><code>sudo apt install openssh-server</code></li>
+<li><code>sudo apt install r-base r-base-dev</code></li>
+</ul>
+
+<h2 id="sshaccesstovirtualmachine">SSH access to Virtual Machine</h2>
+
+<p>For more convenient usage of the artifact, the authors are asked to setup remote access via terminal according to the stackoverflow answer <a href="https://stackoverflow.com/questions/5906441/how-to-ssh-to-a-virtualbox-guest-externally-through-a-host">How to SSH to a VirtualBox guest externally through a host?</a>. Afterwards, users of the artifact can log into the virtual machine with the following command line:</p>
+
+<blockquote>
+<p>ssh -p 3022 axiom@localhost</p>
+</blockquote>
+
+<p>When prompted for a password, use the password &#8220;axiom&#8221; (i.e., the same as the username that is already provided in the commannd line).</p>
+
+<h2 id="executingthebenchmarksanddatapost-processingpipeline">Executing the Benchmarks and Data Post-Processing Pipeline</h2>
+
+<p>Thh execution of benchmark referred to in the evaluation Sections 4, 5, and 6 of the paper, are entriely automated. The data post-processing of the data used in Sections 4 and 5 (cf. Figures 4, 5 and 6) are automated as well. </p>
+
+<p>Getting started with reproducing our resutls requires the execution of following commands in a console/terminal after being logged into our virtual machine:</p>
+
+<p>Moving into the artifacts directory:</p>
+
+<blockquote>
+<p>cd pldi18-artifact</p>
+</blockquote>
+
+<p>Setting up and compiling the artifacts:</p>
+
+<blockquote>
+<p>make prepare</p>
+</blockquote>
+
+<p>(To manually inspect what the <strong>make</strong> commands do, have a look at <em>pldi18-artifact/Makefile</em>.)</p>
+
+<h3 id="quicklyevaluatingarchiveddataconcerningsections4and5">(Quickly) Evaluating Archived Data concerning Sections 4 and 5</h3>
+
+<p>Next, one can re-generate the boxplots of the Figures 4, 5 and 6 (page 8 of the paper) based the logs that we obtained when executing the benchmarks ourselves.</p>
+
+<p>Our cached results are contained in the folder <em>data/20170417_1554</em>. The folder contains the following files:</p>
+
+<ul>
+<li><strong>results.all&#8211;20170417_1554.log</strong>: comma-separated values (CSV) file containing microbenchmark results of runtimes of individual operations</li>
+<li><strong>map_sizes_heterogeneous_exponential_32bit_20170417_1554</strong>: CSV file containing memory footprints in a 32-bit JVM setting.</li>
+<li><strong>map_sizes_heterogeneous_exponential_64bit_20170417_1554</strong>: CSV file containing memory footprints in a 64-bit JVM setting.</li>
+<li><strong>hamt-benchmark-results&#8211;20170417_1554.tgz</strong>: an archieve containing the files mentioned above verbose console output from running the benchmarks.</li>
+</ul>
+
+<p>The folder addionally contains three PDFs that were generated from the data files referenced above. The files correspond directly to the boxplots of Figures 4, 5, and 6 of page 8 of the paper. The boxplots are named <strong>all-benchmarks-vf_champ_multimap_hhamt_by_vf_(scala|clojure|champ_map_as_multimap-map)-boxplot-speedup.pdf</strong> and were generated with the following command, which should finish in a few seconds:</p>
+
+<blockquote>
+<p>make postprocessing_cached</p>
+</blockquote>
+
+<p>The reviewer may delete the three PDFs and re-generate them by with the command. An R script that is located under <em>benchmark/resources/r/benchmarks.r</em> performs the data post-processing and generation of the plots.</p>
+
+<h3 id="relativelyquicklyre-executingthewholepipelinewithareduceddatasetconcerningsections4and5">(Relatively Quickly) Re-executing the whole Pipeline with a Reduced Dataset concerning Sections 4 and 5</h3>
+
+<p>The following commands re-execute the benchmarks for a reduced data set (with not statistically significant results) for the data structure sizes 16, 2048 and 1048576:</p>
+
+<p>Running reduced set of microbenchmarks:</p>
+
+<blockquote>
+<p>make run_microbenchmarks_short</p>
+</blockquote>
+
+<p>Benchmarking should approximately be finished in 15 to 30 minutes. After the benchmarks finished, the <em>data</em> directory should contain a new timestamped sub-folder with the benchmark results. After executing the following post-processing command, the folder should once again contain three PDFs / figures with boxplots:</p>
+
+<p>Running result analysis and post-processing:</p>
+
+<blockquote>
+<p>make postprocessing</p>
+</blockquote>
+
+<p>Note, that the results are neither statistically significant, nor do the cover a representative set of data structures size or data points in general. Nevertheless, the shape the boxplots may be similar to the figures in the paper.</p>
+
+<h3 id="extremelylongre-executingthewholepipelinewiththefulldatasetconcerningsections4and5">(Extremely Long) Re-executing the whole Pipeline with the Full Dataset concerning Sections 4 and 5</h3>
+
+<p>Running reduced set of microbenchmarks:</p>
+
+<blockquote>
+<p>make run_microbenchmarks</p>
+</blockquote>
+
+<p>Running result analysis and post-processing:</p>
+
+<blockquote>
+<p>make postprocessing</p>
+</blockquote>
+
+<p>Benchmarking the full data set can take up to two days of processing and should be performed on a dedicated machine without load or extraneous processes running in order to yield reliable results (see paper section about experimental setup and related work).</p>
+
+<h3 id="relativelyquicklyre-executingthestaticanalysiscasestudyconcerningsection6">(Relatively Quickly) Re-executing the Static Analysis Case Study concerning Section 6</h3>
+
+<p>Running case study benchmarks:</p>
+
+<blockquote>
+<p>make run_static_analysis_case_study</p>
+</blockquote>
+
+<p>Executing the case study benchmark I guess takes approximatley 1 to 2 hours. The benchmark results should be shown in tabular form in the terminal at the end of the benchmark run, and also serialized to disk (to a CSV file named <em>results.all-real-world-$TIMESTAMP.log</em>).</p>
+
+<p>Post-processing the data of this benchmark was not automated, and instead done by hand. However, it should be observable that the benchmark results for CHAMP and AXIOM are roughly the same. Note that abbreviations used in the benchmark setup do not match the names in the paper, i.e., CHART is used for CHAMP, and VF_CHAMP_MULTIMAP_HHAMT is used for AXIOM. The results cover the first three columns of Table 1.</p>
+
+<p>Colums 3&#8211;6 of Table 1 were also extracted manually with an instrumented version of the benchmark (cf. file <em>benchmark/src/main/java/dom/multimap/DominatorsSetMultimap_Default_Instrumented.java</em>).</p>
+
+<h2 id="otherrelevantitemsofourartifact">Other Relevant Items of our Artifact</h2>
+
+<p>Our AXIOM hash trie implementations can be found under <em>code/capsule-experimental/src/main/java/io/usethesource/capsule/experimental/multimap/TrieSetMultimap_HHAMT.java</em>, for people interested in manually inspecting the implementation.</p>
+
+<p>The packages <em>benchmark/src/main/scala/io/usethesource/criterion/impl/persistent/scala</em> and <em>benchmark/src/main/java/io/usethesource/criterion/impl/persistent/clojure</em> contain simple interface facades that enables cross-library benchmarks under a common API.</p>
+
+<p>The benchmark implementations can be found in the <em>benchmark</em> project. File <em>benchmark/src/main/java/dom/multimap/DominatorsSetMultimap_Default.java</em> implements the real-word experiment (Section 6 of the paper), and file <em>benchmark/src/main/java/dom/multimap/DominatorsSetMultimap_Default_Instrumented.java</em> was used to extracting further statistics (colums 4&#8211;6 of Table 1).</p>
+
+<p>File <em>JmhSetMultimapBenchmarks.java</em> measures the runtimes of individual operations, whereas <em>CalculateHeterogeneousFootprints.java</em> performs footprint measurements (cf. page 8, Figures 4, 5, and 6). Note that the Java benchmark classes contain default parameters for their invocation, however the actual parameters are set in <em>runMicrobenchmarks.sh</em> and <em>runStaticProgramAnalysisCaseStudy.sh</em>.</p>
+    </div>
+</body>
+</html>
