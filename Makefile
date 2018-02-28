@@ -7,6 +7,11 @@ clean:
 	(rm -f ./benchmark/data/wordpress-cfgs-as-graphs.bin)
 	(cd ./benchmark && mvn clean)
 
+update:
+	(git pull)
+	(cd ./code && git pull)
+	(cd ./benchmark && git pull)
+
 unpack_data:
 	# unpack data for real-world evaluation
 	(cd ./benchmark/data && gunzip --keep --force wordpress-cfgs-as-graphs.bin.gz)
@@ -14,6 +19,8 @@ unpack_data:
 prepare: javaversion
 	# build all criterion
 	(cd ./benchmark && mvn clean install)
+	(Rscript ./benchmark/resources/r/install.r)
+
 
 # run: javaversion unpack_data
 # 	(cd ./benchmark && \

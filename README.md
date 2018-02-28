@@ -23,7 +23,7 @@ For ease of use, we created a virtual machine with tools, benchmarks, and data s
 The virtual machine has the following packages installed in order to satisfy our requirements:
 
 * `sudo apt install git`
-* `sudo apt install openjdk-8-jre-headless`
+* `sudo apt install default-jdk`
 * `sudo apt install maven`
 * `sudo apt install openssh-server`
 * `sudo apt install r-base r-base-dev`
